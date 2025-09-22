@@ -1,0 +1,27 @@
+minimum required tmsbuild version: 2.0
+
+application:
+  id: lminuti.openssl
+  name: Delphi-OpenSSL
+  description: Delphi wrapper for OpenSSL
+  url: https://github.com/lminuti/Delphi-OpenSSL
+
+  version file: version.txt
+
+supported frameworks:
+  vcl:
+    ide since: delphiberlin
+    platforms: 
+      - all
+
+packages:
+  - OpenSSL: [runtime, vcl]
+
+package options:
+  package folders:
+    delphiberlin: 10.1Berlin
+    delphitokyo: 10.2Tokyo
+    delphirio: 10.3Rio
+    delphisydney: 10.4Sydney
+    delphi11: 11.0Alexandria
+    delphi12+: 12.0AthensAndAbove

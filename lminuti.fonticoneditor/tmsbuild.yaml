@@ -1,0 +1,25 @@
+minimum required tmsbuild version: 2.0
+
+application:
+  id: lminuti.fonticoneditor
+  name: FontIconEditor
+  description: An ImageList component editor to handle font icons
+  url: https://github.com/lminuti/FontIconEditor
+
+  version file: version.txt
+
+supported frameworks:
+  vcl:
+    ide since: delphiberlin
+    platforms: 
+      - all
+
+packages:
+  - FontIconDesign: [design, vcl]
+
+package options:
+  package folders:
+    delphiberlin: 10.1Berlin
+    delphitokyo: 10.2Tokyo
+    delphirio: 10.3Rio
+    delphi12+: 12AthensAndAbove
