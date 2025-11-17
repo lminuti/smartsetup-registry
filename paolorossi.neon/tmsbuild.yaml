@@ -1,0 +1,28 @@
+minimum required tmsbuild version: 2.0
+  
+application:
+  id: paolorossi.neon
+  name: Neon
+  description: Neon is a serialization library for Delphi that helps you to convert (back and forth) objects and other values to JSON.
+  copyright: Apache-2.0 license
+  url: https://github.com/paolo-rossi/delphi-neon
+  
+#  version file: version.txt
+
+supported frameworks:
+  vcl:
+    ide since: delphiberlin
+    platforms: 
+      - all
+
+packages:
+  - Neon: [runtime, vcl]
+
+package options:
+  package folders: 
+    delphiberlin: 10.1Berlin
+    delphitokyo: 10.2Tokyo
+    delphirio: 10.3Rio
+    delphisydney: 10.4Sydney
+    delphi11+: 11AndLater
+
